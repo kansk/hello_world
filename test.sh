@@ -1,3 +1,4 @@
+#!/bin/bash
 sleep 5
 if curl web | grep -q '<b>Visits:</b> '; then
   echo "Tests passed!"
