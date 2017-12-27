@@ -1,15 +1,6 @@
-file:
-  /var/log/nginx/access.log:
-    exists: false
-    linked-to: /dev/stdout
-    filetype: symlink
-  /var/log/nginx/error.log:
-    exists: false
-    linked-to: /dev/stderr
-    filetype: symlink
 package:
   nginx:
-    installed: false
-    versions:
-    - 1.11.10-1~jessie
-
+    installed: true
+process:
+ 	nginx:
+ 	running: true
