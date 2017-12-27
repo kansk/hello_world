@@ -2,5 +2,5 @@ package:
   nginx:
     installed: true
 process:
- 	nginx:
- 	  running: true
+  nginx:
+    running: true
