@@ -1,4 +1,4 @@
 package:
   nginx:
-    installed: true
+    installed: false
 
