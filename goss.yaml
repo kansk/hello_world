@@ -3,4 +3,4 @@ package:
     installed: true
 process:
  	nginx:
- 	running: true
+ 	  running: true
